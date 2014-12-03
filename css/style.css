@@ -1,0 +1,172 @@
+/*body{
+   background-color: #2b1f1f;
+}
+*/
+body{
+	background-color: #EC5E0C;
+}
+.background{
+	/*background-image:url("img/Pergamino-medio-v3.png");*/
+	background-color: #7E1C13;
+	border-radius: 10px;
+	/*background: url('http://images.wikia.com/hieloyfuego/images/b/b8/Pergamino-alto-medio-v3.png') repeat-x center top,url('http://images.wikia.com/hieloyfuego/images/d/d5/Pergamino-bajo-medio-v3.png') repeat-x center bottom,url('http://images.wikia.com/hieloyfuego/images/4/44/Pergamino-derecha-v2.png') repeat-y right top,url('http://images.wikia.com/hieloyfuego/images/a/a1/Pergamino-izquierda-v2.png') repeat-y left top,url('http://images.wikia.com/hieloyfuego/images/7/7c/Pergamino-medio-v3.png') repeat center top;
+box-shadow: none;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;*/
+}
+.header{
+	background-color: #280904;
+	height:100px;
+
+}
+.menu{
+	/*background-color: yellow;*/
+}
+.menu ul{
+	margin:80px 0px 0px 0px;
+}
+.menu li{
+
+	color: white;
+	display:inline;
+	font-weight: bold; 
+    font-family: Georgia, Serif; 
+            font-style: italic;
+           
+
+}
+.menu li:hover{
+	text-decoration:underline;
+}
+.video{
+	background-color: #280904;
+	margin: 10px;
+	padding: 15px 0px 10px 10px;
+	border-radius: 10px;
+}
+.video_leyenda{
+	/*background-color: #C88865;*/
+	margin: 80px 5px 0px 20px;
+}
+.video_leyenda p,h3{
+	color: #E6E1C2;
+}
+.columna{
+	background-color: #E4844A;
+	height:500px;
+	display:block;
+	margin:10px;
+	border-radius: 10px;
+	margin: 5px 0px 5px 15px;*/
+	word-wrap: break-word;/*para dar salto de linea a una palabra*/
+}
+.columna p{
+	text-align: center;
+	padding: 10px;
+	text-align: justify;
+}
+.columna h3{
+	color: #7E1C13;
+	text-align: center;
+	padding: 20px;
+}
+.f1{
+	width: 200px;
+	height:200px;
+	padding: 10px 50px 10px 50px;
+}
+.complete{
+	width: 100%;
+	/*background-color: #666;*/
+	margin: 10px;
+}
+
+.texto{
+	height:200px;
+}
+.texto_p{
+	margin:60px 10px 10px 10px;
+}
+.mapa{
+	margin:10px;
+}
+
+.mapa_leyenda p{
+	color: #E6E1C2;
+	margin:10px;
+}
+
+.autor{
+	/*background-color: brown;*/
+	margin:80px 10px 10px 10px;
+
+}
+.foto_autor{
+	border-radius: 500px;
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: auto;
+	float: right;
+}
+.frase-c{
+	height: 400px;
+}
+.frase{
+	background-color: #FFE8BF;
+	margin:120px 10px 10px 10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px #555;
+	position:relative;
+}
+.frase:before{
+    content: "";
+    width: 0;
+    position: absolute;
+    border-style: solid;
+    border-width: 5px 10px 5px 0;
+    border-color: transparent #FFE8BF;
+    top: 40px;
+    left: -10px;
+}
+.footer-c{
+	background-color: #280904;
+}
+
+.footer{
+	height:200px;
+
+	margin:10px;
+	text-align: center;
+
+}
+
+a{
+	color:white;
+}
+.ffooter{
+	width: 100px;
+	height:100px;
+	display: block;
+	margin: auto;
+	padding:40px;
+
+}
+
+.left {
+  float: left;
+  width: 100%;
+  height: 200px;
+  /*border: 5px solid;*/
+
+  /*margin:10px 10px 10px 60px; */
+}
+p{
+	font-weight: bold; 
+	font-family: Georgia, Serif; 
+            font-style: italic;
+             color: #1E2528;
+}
+h4{
+	color:white;
+}
